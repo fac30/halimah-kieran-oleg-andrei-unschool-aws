@@ -20,4 +20,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.SECRET_KEY_NAME }}
           aws-region: eu-north-1
       - name: Copy to S3
-        run: aws s3 sync . <bucket name>
+        run: aws s3 sync . s3://fac30unschoolawstutorial.co.uk
