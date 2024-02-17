@@ -1,1 +1,1 @@
-test1
+const clickBtn = document.getElementById('clickBtn');
